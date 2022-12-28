@@ -2,9 +2,12 @@ import React from 'react'
 
 const CardWidget = () => {
   return (
-    <span className="material-icons header__link">
-        shopping_cart
-    </span>
+    <div>
+        <span className="material-icons header__link">
+            shopping_cart
+        </span>
+        <div className='cart__amount'>0</div>
+    </div>
   )
 }
 

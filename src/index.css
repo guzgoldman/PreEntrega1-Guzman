@@ -37,7 +37,7 @@ html , body , #root  {
   text-decoration: none;
   color: white;
   margin-left: 1rem;
-  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 main {
@@ -60,5 +60,15 @@ footer {
   color: white;
   height: 3.5rem;
   justify-content: center;
+}
 
+.cart__amount {
+  position: absolute;
+    top: 15px;
+    right: 11px;
+    color: white;
+    font-size: 16px;
+    background-color: red;
+    padding: 3px;
+    border-radius: 3px;
 }
