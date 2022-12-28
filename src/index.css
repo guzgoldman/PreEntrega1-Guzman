@@ -31,6 +31,7 @@ html , body , #root  {
   font-weight: 500;
   line-height: 0.9;
   font-size: 2rem;
+  margin-left: 4rem;
 }
 
 .header__link {
@@ -45,11 +46,21 @@ main {
   padding: 0.5rem;
 }
 
+main h2 {
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   background-color: black;
   color: #fff;
   padding: 1rem 0.5rem;
   font-size: 0.75rem;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
 }
 
 .greeting {
@@ -65,10 +76,14 @@ footer {
 .cart__amount {
   position: absolute;
     top: 15px;
-    right: 11px;
+    right: 75px;
     color: white;
     font-size: 16px;
     background-color: red;
     padding: 3px;
     border-radius: 3px;
+}
+
+.nav {
+  margin-right: 4rem;
 }
