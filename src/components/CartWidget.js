@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CardWidget = () => {
+const CartWidget = () => {
   return (
     <div>
       <span className="material-icons header__link">
@@ -11,4 +11,4 @@ const CardWidget = () => {
   )
 }
 
-export default CardWidget
+export default CartWidget

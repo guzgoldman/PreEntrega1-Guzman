@@ -1,5 +1,5 @@
 import React from 'react'
-import CardWidget from './CardWidget'
+import CartWidget from './CartWidget'
 import { Link, NavLink } from "react-router-dom"
 
 const Navbar = (props) => {
@@ -12,7 +12,7 @@ const Navbar = (props) => {
                 <NavLink className="header__link" to="/products/cd">CD Store</NavLink>
                 <NavLink className="header__link" to="/products/vinyl">Vinyl Store</NavLink>
                 <NavLink to="/cart">
-                  <CardWidget/>
+                    <CartWidget/>
                 </NavLink>
             </nav>
         )

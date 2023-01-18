@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
 import ItemList from "./ItemList"
 
 const ItemListContainer = () => {
@@ -28,7 +27,7 @@ const ItemListContainer = () => {
 
     return (
         <div className="load">
-            {load ? 'Productos Cargados' : 'Cargando...'}
+            {load ? null : 'Cargando...'}
             <ItemList productos={productos}/>
         </div>
     )

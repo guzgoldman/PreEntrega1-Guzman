@@ -6,7 +6,7 @@ const ItemDetailContainer = () => {
     console.log(params.id)
     
     return (
-        <div>ItemDetailContainer</div>
+        <div>Detalles de producto</div>
     )
 }
 
